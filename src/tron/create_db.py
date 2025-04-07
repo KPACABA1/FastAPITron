@@ -1,4 +1,5 @@
 from src.tron.database import engine, Base
+from src.tron.models import TronWallet
 
 
 def create_tables():
