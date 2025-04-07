@@ -4,3 +4,4 @@ uvicorn>=0.15.0
 pydantic==2.11.1
 tronpy==0.5.0
 python-dotenv
+pytest==8.3.5

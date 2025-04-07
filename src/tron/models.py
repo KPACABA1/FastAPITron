@@ -4,7 +4,7 @@ from src.tron.database import Base
 # Создание модельки
 class TronWallet(Base):
     """Модель для хранения данных кошелька."""
-    __tablename__ = "tron_info"
+    __tablename__ = "tron_wallets"
 
     id = Column(Integer, primary_key=True, index=True)
     address = Column(String)
